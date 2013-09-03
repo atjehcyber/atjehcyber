@@ -1,0 +1,1 @@
+/*<![CDATA[*/jQuery(document).ready(function(){jQuery(&#39;#newsslider&#39;).accessNews({});jQuery(&#39;#newsslider2&#39;).accessNews({title:&quot;&quot;,subtitle:&quot;&quot;,speed:&quot;slow&quot;,slideBy:4,slideShowInterval:3000,slideShowDelay:100000});$(function(){$(&#39;.nano&#39;).nanoScroller();$(&#39;.nano2&#39;).nanoScroller();});});/*]]>*/
