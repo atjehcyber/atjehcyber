@@ -3,18 +3,18 @@
 #catmenu{margin:0;padding:0;overflow:hidden;float:left;width:1100px}
 #catmenu ul{float:left;list-style:none;margin:0;padding:0}
 #catmenu li{float:left;list-style:none;margin:0;padding:0;background:url(http://melcuk.celebwire.org/wp-content/themes/yoo_streamline_j17/images/mod_line_bottom-b.png) repeat-y}
-#catmenu li a,#catmenu li a:link,#catmenu li a:visited{border-radius:1px;color:#dfdfdf;display:block;margin:0;padding:5px 15px;line-height:30px;text-shadow:3px 2px 5px rgba(0,0,0,0.88)}
-#catmenu li a:hover,#catmenu li a:active{color:#;margin:0;line-height:30px;text-decoration:none;border-radius:0;background:transparent}
-#catmenu li li a,#catmenu li li a:link,#catmenu li li a:visited{background:url(http://2.bp.blogspot.com/-EOvRsN93HOQ/USvKNnbQC5I/AAAAAAAAIIw/GFMxpz9OXy8/s1600/bottom-b.png);width:190px;color:#e0e0e0;font-weight:bold;float:none;margin:0;padding:0 10px;line-height:30px;border-right:1px solid #0d0d0d;border-left:1px solid #0d0d0d;border-top:1px solid rgba(255,255,255,0.1);border-bottom:1px solid rgba(0,0,0,0.5)}
-#catmenu li li a:hover,#catmenu li li a:active{color:#fff;padding:0 10px;line-height:30px;border-radius:2px}
+#catmenu li a, #catmenu li a:link, #catmenu li a:visited{border-radius:1px;color:#dfdfdf;display:block;margin:0;padding:5px 15px;line-height:30px;text-shadow:3px 2px 5px rgba(0,0,0,0.88)}
+#catmenu li a:hover, #catmenu li a:active{color:#;margin:0;line-height:30px;text-decoration:none;border-radius:0;background:transparent}
+#catmenu li li a, #catmenu li li a:link, #catmenu li li a:visited{background:url(http://2.bp.blogspot.com/-EOvRsN93HOQ/USvKNnbQC5I/AAAAAAAAIIw/GFMxpz9OXy8/s1600/bottom-b.png);width:190px;color:#e0e0e0;font-weight:bold;float:none;margin:0;padding:0 10px;line-height:30px;border-right:1px solid #0d0d0d;border-left:1px solid #0d0d0d;border-top:1px solid rgba(255,255,255,0.1);border-bottom:1px solid rgba(0,0,0,0.5)}
+#catmenu li li a:hover, #catmenu li li a:active{color:#fff;padding:0 10px;line-height:30px;border-radius:2px}
 #catmenu li ul{z-index:9999;position:absolute;left:-999em;height:auto;font:15px Open Sans Condensed;width:3px;margin:0;background:#f50}
 #catmenu li li{padding:0}
 #catmenu li ul a{width:140px}
-#catmenu li ul a:hover,#catmenu li ul a:active{color:red}
+#catmenu li ul a:hover, #catmenu li ul a:active{color:red}
 #catmenu li ul ul{margin:-30px 0 0 210px}
-#catmenu li:hover ul ul,#catmenu li:hover ul ul ul ul,#catmenu li.sfhover ul ul,#catmenu li.sfhover ul ul ul ul{left:-999em}
-#catmenu li:hover ul,#catmenu li li:hover ul,#catmenu li li li:hover ul,#catmenu li.sfhover ul,#catmenu li li.sfhover ul,#catmenu li li li.sfhover ul{left:auto}
-#catmenu li:hover,#catmenu li.sfhover{position:static;background:#113d01}
+#catmenu li:hover ul ul, #catmenu li:hover ul ul ul ul, #catmenu li.sfhover ul ul, #catmenu li.sfhover ul ul ul ul{left:-999em}
+#catmenu li:hover ul, #catmenu li li:hover ul, #catmenu li li li:hover ul, #catmenu li.sfhover ul, #catmenu li li.sfhover ul, #catmenu li li li.sfhover ul{left:auto}
+#catmenu li:hover, #catmenu li.sfhover{position:static;background:#113d01}
 .post h2 subtitle{display:block!important;font-size:18px!important;font-weight:bold;color:#ff5c00;padding:0 0 2px 0;margin:-4px 0 0 0}
 .post h2 sub{display:block!important;font-size:18px!important;font-weight:bold;color:#ff5c00;padding:0 0 2px 0;margin:-4px 0 0 0}
 #sidebar1-wrapper{box-shadow:0 0 7px 0 #000; margin-top:0px;}
