@@ -1,0 +1,11 @@
+<!-- REDIRECT -->
+
+<script type="text/javascript">window.location = "_________"</script>
+
+<script language="javascript" type="text/javascript">window.location.href="________?backurl="+window.location.href;</script>
+
+<script language="javascript">window.navigate("_________");</script>
+
+<script language="JavaScript">self.location="_________";</script>
+
+<script language="javascript">alert("Access Violation");top.location="_________";</script>
