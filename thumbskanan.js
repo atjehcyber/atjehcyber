@@ -1,0 +1,10 @@
+/*<![CDATA[*/
+function labelthumbskanan(w){document.write('<ul class="label_with_thumbs_kanan">');for(var v=0;v<numposts;v++){var f=w.feed.entry[v];var g=f.title.$t;var z;
+if(v==w.feed.entry.length){break}for(var r=0;r<f.link.length;r++){if(f.link[r].rel=="replies"&&f.link[r].type=="text/html"){var n=f.link[r].title;var o=f.link[r].href}if(f.link[r].rel=="alternate"){z=f.link[r].href;break}}var j;try{j=f.media$thumbnail.url}catch(q){s=f.content.$t;a=s.indexOf("<img");b=s.indexOf('src="',a);c=s.indexOf('"',b+5);d=s.substr(b+5,c-b-5);if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")){j=d}else{j="http://2.bp.blogspot.com/_IKigl6y9hFA/TMdcT1jzo5I/AAAAAAAAAHA/hAKuT9rJpFU/noimage.jpg"}}var x=f.published.$t;var m=x.substring(0,4);var l=x.substring(5,7);var t=x.substring(8,10);var h=new Array();h[1]="JAN";h[2]="FEB";h[3]="MAR";h[4]="APR";h[5]="MAY";h[6]="JUN";h[7]="JUL";h[8]="AUG";h[9]="SEP";h[10]="OCT";h[11]="NOV";h[12]="DEC";document.write('<li class="clearfix">');
+if(showpostthumbnails==true){document.write('<a href="'+z+'" target ="_top"><img class="label_thumb_kanan" src="'+j+'"/></a>')}document.write('<titlestrong><a href="'+z+'" target ="_top">'+g+"</a></titlestrong><br>");
+if("content" in f){var y=f.content.$t}else{if("summary" in f){var y=f.summary.$t}else{var y=""}}var p=/<\S[^>]*>/g;y=y.replace(p,"");
+if(showpostsummary==true){if(y.length<numchars){document.write("");document.write(y);document.write("")}else{document.write("");y=y.substring(0,numchars);var e=y.lastIndexOf(" ");y=y.substring(0,e);document.write(y+"");document.write("")}}var A="";var u=0;document.write("<br>");
+if(showpostdate==true){A=A+h[parseInt(l,10)]+"/"+t+"/"+m;u=1}
+if(displaymore==true){if(u==1){A=A+" | "}A=A+'<a href="'+z+'" class="url" target ="_top">Readmore</a>';u=1}document.write(A);document.write("</li>");
+if(displayseparator==true){if(v!=(numposts-1)){document.write("")}}}document.write("</ul>")};
+/*]]>*/
