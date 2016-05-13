@@ -41,12 +41,12 @@ catch(e){
 return {"err":"trouble parsing JSON object"};
 }
 },buildStructure:function(){
-$.d={"title":"&nbsp;","height":"300px","width":"100%","border":"none","margin":"0","padding":"0","containerPadding":"0","evenBackgroundColor":"transparent","oddBackgroundColor":"transparent","pipesTitleFontSize":"inherit","pipesDescriptionFontSize":"12px","count":25};
+$.d={"title":"&nbsp;","height":"300px","width":"100%","border":"none","margin":"0","padding":"0","containerPadding":"0","evenBackgroundColor":"transparent","oddBackgroundColor":"transparent","pipesTitleFontSize":"inherit","pipesDescriptionFontSize":"12px","count":15};
 var _b="";
 if(this.inpipe){
 $.d.width="100%";
 $.d.height="100%";
-$.a.count=25;
+$.a.count=15;
 $.a.hideHeader="true";
 }else{
 _b="overflow:auto;overflow-x:hidden;";
